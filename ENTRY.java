@@ -65,6 +65,7 @@ public class ENTRY
     }
      private static void newadmin(Scanner in)
    {
+    System.out.println("WELCOME NEW ADMIN REGISTRATION");
       System.out.println("ENTER YOUR NAME");
       NAME[counter]=in.next();
       System.out.println("PASSWORD");
@@ -73,7 +74,6 @@ public class ENTRY
    }
    private static void admin(Scanner in)
    {
-      System.out.println("WELCOME NEW ADMIN REGISTRATION");
       System.out.println("ENTER YOUR NAME");
       String NAMEcheck=in.next();
       System.out.println("PASSWORD");
